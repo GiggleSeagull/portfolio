@@ -100,10 +100,10 @@ body {
     height: 389px;
     background-color: #fff;
     border-radius: 50%;
-    background-image: url('../img/avatar.jpg');
+    background-image: url('../img/avatar_2.png');
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center top -20px;
+    background-size: 110%;
+    background-position: top -29px right -12px;
     border: 13px solid #ffbb01;
 }
 
@@ -370,17 +370,18 @@ body {
 }
 @media (max-width: 564px){
     .hero {
-        padding-bottom: 75px;
+        padding-top: 15px;
+        padding-bottom: 50px;
     }
     .hero-avatar {
-        width: 113px;
-        height: 113px;
-        border-width: 4px;
+        width: 175px;
+        height: 175px;
+        border-width: 5px;
         background-size: 100%;
-        background-position: center top;
+        background-position: center top -10px;
     }
     .hero-header {
-        margin-bottom: 38px;
+        margin-bottom: 30px;
     }
     .social-link {
         margin-left: 5px;
@@ -399,32 +400,35 @@ body {
         line-height: 140%;
     }
     .section {
-        padding-top: 60px 0;
+        padding-top: 40px;
+        padding-bottom: 10px;
     }
     .section-title {
         font-size: 20px;
         line-height: 22px;
-        margin-bottom: 60px;
+        margin-bottom: 20px;
     }
     .features-item {
         flex-basis: 100%;
-        margin-bottom: 30px;
+        margin-bottom: 25px;
     }
     .features-title {
         font-size: 18px;
-        line-height: 28px;
+        line-height: 5px;
     }
     .features-text {
         font-size: 14px;
-        line-height: 28px;
+        line-height: 20px;
     }
     .project-title {
         font-size: 18px;
         line-height: 150%;
+        margin-bottom: 20px;
+        margin-top: -20px;
     }
     .project-time, .project-cost, .project-feedback {
         flex-basis: 100%;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
     }
     .project-paragraph {
         font-size: 14px;
@@ -441,7 +445,7 @@ body {
     }
     .contacts-phone, .contacts-mail {
         flex-basis: 100%;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
     }
     .contacts-title {
         font-size: 18px;
@@ -452,5 +456,8 @@ body {
         line-height: 16px;
         display: block;
         margin-bottom: 8px;
+    }
+    .contacts-policy {
+        margin-top: 50px;
     }
 }
