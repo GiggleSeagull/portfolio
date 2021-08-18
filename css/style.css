@@ -101,7 +101,7 @@ body {
     height: 250px;
     background-color: #fff;
     border-radius: 20px;
-    background-image: url('../img/portfolio.png');
+    background-image: url('../img/Portfolio.png');
     background-repeat: no-repeat;
     background-size: 110%;
     background-position-x: center;
@@ -500,7 +500,7 @@ body {
     }
 
     .button_portfolio {
-        background-image: url('../img/portfolio_615px.png');
+        background-image: url('../img/Portfolio_615px.png');
         margin-top: 70px;
         margin-bottom: 20px;
         height: 150px;
