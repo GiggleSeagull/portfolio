@@ -47,7 +47,7 @@ body {
 }
 
 .social-link {
-    margin-left: 10px;
+    margin-left: 13px;
 }
 
 .social-link:first-child {
@@ -322,7 +322,7 @@ body {
     /* margin-left: 30px; */
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 42px;
+    margin-bottom: 2px;
 }
 
 .contacts-phone,
@@ -360,7 +360,7 @@ body {
     /* identical to box height */
     text-decoration: underline;
     color: #A5A5A5;
-    margin-top: 40px;
+    margin-top: 45px;
 }
 
 .contacts-policy_2 {
@@ -381,6 +381,13 @@ body {
         height: 300px;
         border-width: 10px;
     }
+
+    .contacts-phone,
+    .contacts-mail {
+        flex-basis: 50%;
+        margin-bottom: 40px;
+    }
+
 }
 
 @media (max-width: 836px) {
@@ -433,7 +440,7 @@ body {
 }
 @media (max-width: 615px){
     .hero {
-        padding-top: 15px;
+        padding-top: 25px;
         padding-bottom: 70px;
     }
 
@@ -553,7 +560,7 @@ body {
     }
 
     .social-links-bottom {
-        margin-top: -30px;
+        margin-top: 0px;
     }
 
     .contacts-policy {
